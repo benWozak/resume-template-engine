@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_basic_experiences",
+  "info": {
+    "displayName": "Experience"
+  },
+  "options": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "job_title": {
+      "type": "string"
+    },
+    "job_description": {
+      "displayName": "Text Block",
+      "type": "component",
+      "repeatable": true,
+      "component": "basic.text-block"
+    }
+  }
+}

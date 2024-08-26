@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_basic_socials",
+  "info": {
+    "displayName": "socials",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "linkedin_url": {
+      "type": "string"
+    },
+    "github_url": {
+      "type": "string"
+    },
+    "portfolio_url": {
+      "type": "string"
+    }
+  }
+}

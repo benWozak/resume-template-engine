@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_basic_small_text_blocks",
+  "info": {
+    "displayName": "Small Text Block"
+  },
+  "options": {},
+  "attributes": {
+    "skill_item": {
+      "type": "string"
+    }
+  }
+}

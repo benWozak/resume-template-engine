@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_basic_educations",
+  "info": {
+    "displayName": "Education"
+  },
+  "options": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "degree": {
+      "type": "string"
+    }
+  }
+}

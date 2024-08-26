@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_basic_profiles",
+  "info": {
+    "displayName": "Profile"
+  },
+  "options": {},
+  "attributes": {
+    "profile_text": {
+      "type": "text"
+    }
+  }
+}
