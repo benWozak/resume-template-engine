@@ -1,18 +1,16 @@
 {
   "collectionName": "components_basic_skills",
   "info": {
-    "displayName": "Skills"
+    "displayName": "Skills",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "skill_title": {
       "type": "string"
     },
-    "items": {
-      "displayName": "Small Text Block",
-      "type": "component",
-      "repeatable": true,
-      "component": "basic.small-text-block"
+    "skill_items": {
+      "type": "text"
     }
   }
 }

@@ -37,10 +37,11 @@ export interface BasicSkills extends Schema.Component {
   collectionName: 'components_basic_skills';
   info: {
     displayName: 'Skills';
+    description: '';
   };
   attributes: {
     skill_title: Attribute.String;
-    items: Attribute.Component<'basic.small-text-block', true>;
+    skill_items: Attribute.Text;
   };
 }
 
