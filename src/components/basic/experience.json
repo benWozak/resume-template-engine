@@ -1,7 +1,8 @@
 {
   "collectionName": "components_basic_experiences",
   "info": {
-    "displayName": "Experience"
+    "displayName": "Experience",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -22,6 +23,15 @@
       "type": "component",
       "repeatable": true,
       "component": "basic.text-block"
+    },
+    "bullet_1": {
+      "type": "text"
+    },
+    "bullet_2": {
+      "type": "text"
+    },
+    "bullet_3": {
+      "type": "text"
     }
   }
 }

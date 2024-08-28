@@ -59,6 +59,7 @@ export interface BasicExperience extends Schema.Component {
   collectionName: 'components_basic_experiences';
   info: {
     displayName: 'Experience';
+    description: '';
   };
   attributes: {
     company: Attribute.String;
@@ -66,6 +67,9 @@ export interface BasicExperience extends Schema.Component {
     end_date: Attribute.Date;
     job_title: Attribute.String;
     job_description: Attribute.Component<'basic.text-block', true>;
+    bullet_1: Attribute.Text;
+    bullet_2: Attribute.Text;
+    bullet_3: Attribute.Text;
   };
 }
 

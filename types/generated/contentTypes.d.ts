@@ -368,6 +368,7 @@ export interface ApiTemplateTemplate extends Schema.CollectionType {
     singularName: 'template';
     pluralName: 'templates';
     displayName: 'template';
+    description: '';
   };
   options: {
     draftAndPublish: true;
